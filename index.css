@@ -1,3 +1,23 @@
+body{
+max-width: 600px;
+  margin:  auto;
+  color: white;
+ }
+
 * {
 font-family: Raleway, "Century Gothic", "Sans Serif"
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    font-size:  80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
